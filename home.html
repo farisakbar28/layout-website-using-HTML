@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1F2937",
+              secondary: "#F2f2f2",
+              tertiary: "#111827",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Profil Undiknas</title>
+  </head>
+
+  <body>
+    <!-- HEADER START -->
+    <div
+      class="bg-primary flex flex-row justify-start items-center px-20 py-8 mx-auto gap-6"
+    >
+      <img
+        class="max-w-[94px] h-auto"
+        src="image/logo undiknas outline putih.png"
+        alt="undiknas_logo"
+      />
+      <div class="flex flex-col gap-2 text-secondary">
+        <h1 class="transform uppercase text-3xl font-semibold">
+          Undiknas University
+        </h1>
+        <p class="text-md text-[#cccccc]">
+          Kampus Swasta Terbaik di Bali, Mencetak Generasi Unggul dan
+          Berprestasi
+        </p>
+      </div>
+    </div>
+
+    <nav
+      class="bg-tertiary w-full py-4 px-20 sticky top-0 z-20 transition-colors duration-300"
+    >
+      <ul class="flex gap-16 text-lg text-secondary">
+        <li
+          class="hover:border-b-2 hover:border-primary border-b-2 border-transparent duration-300"
+        >
+          <a href="sejarah.html">Sejarah</a>
+        </li>
+        <li
+          class="hover:border-b-2 hover:border-primary border-b-2 border-transparent duration-300"
+        >
+          <a href="program.html">Program</a>
+        </li>
+        <li
+          class="hover:border-b-2 hover:border-primary border-b-2 border-transparent duration-300"
+        >
+          <a href="fasilitas.html">Fasilitas</a>
+        </li>
+        <li
+          class="hover:border-b-2 hover:border-primary border-b-2 border-transparent duration-300"
+        >
+          <a href="#pendaftaran">Pendaftaran</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- HEADER END -->
+
+    <main>
+      <!-- SEJARAH START -->
+      <article
+        id="sejarah"
+        class="flex flex-row gap-10 items-center justify-center m-10 p-10 rounded-xl shadow-md"
+      >
+        <img
+          src="image/undiknas_geografi.jpg"
+          alt="undiknas_geografi"
+          class="max-w-xl"
+        />
+        <div class="space-y-4">
+          <h1 class="text-3xl font-semibold">Sejarah Undiknas</h1>
+          <p class="text-justify">
+            Universitas Pendidikan Nasional (Undiknas) didirikan pada tahun 1969
+            di Denpasar, Bali, sebagai respon terhadap kebutuhan pendidikan
+            tinggi berkualitas. Kampus ini mengedepankan inovasi dalam kurikulum
+            dan metode pengajaran, dengan tujuan untuk mencetak lulusan yang
+            siap menghadapi tantangan global. Berbagai program studi yang
+            ditawarkan, mulai dari ilmu sosial hingga teknologi, telah
+            terakreditasi dan didukung oleh fasilitas modern, sehingga
+            menciptakan lingkungan belajar yang kondusif
+          </p>
+          <button
+            class="border border-tertiary px-4 py-2 text-tertiary hover:bg-tertiary hover:text-secondary transition duration-300"
+          >
+            <a href="sejarah.html">Read More</a>
+          </button>
+        </div>
+      </article>
+      <!-- SEJARAH END -->
+
+      <!-- PROGRAM START -->
+      <article
+        id="program"
+        class="flex flex-row gap-10 items-center justify-center m-10 p-10 rounded-xl shadow-md"
+      >
+        <div class="space-y-4">
+          <h1 class="text-3xl font-semibold">Program Undiknas</h1>
+          <p class="text-justify">
+            Universitas Pendidikan Nasional (Undiknas) menawarkan berbagai
+            program studi, termasuk Ilmu Komputer, Teknik Informatika,
+            Manajemen, dan Akuntansi. Selain itu, kampus ini juga menyediakan
+            program pascasarjana dan pelatihan sertifikasi untuk meningkatkan
+            kompetensi lulusan. Fokus pada pendidikan berbasis penelitian,
+            Undiknas berkomitmen untuk menghasilkan lulusan yang berkualitas dan
+            siap bersaing
+          </p>
+          <button
+            class="border border-tertiary px-4 py-2 text-tertiary hover:bg-tertiary hover:text-secondary transition duration-300"
+          >
+            <a href="program.html">Read More</a>
+          </button>
+        </div>
+        <img
+          src="image/undiknas_civitas.jpg"
+          alt="undiknas_civitas"
+          class="max-w-xl"
+        />
+      </article>
+      <!-- PROGRAM END -->
+
+      <!-- FASILITAS START -->
+      <article
+        id="fasilitas"
+        class="flex flex-row gap-10 items-center justify-center m-10 p-10 rounded-xl shadow-md"
+      >
+        <img
+          src="image/undiknas_perpustakaan.jpg"
+          alt="undiknas_geografi"
+          class="max-w-xl"
+        />
+        <div class="space-y-4">
+          <h1 class="text-3xl font-semibold">Fasilitas Undiknas</h1>
+          <p class="text-justify">
+            Universitas Pendidikan Nasional (Undiknas) menyediakan fasilitas
+            modern, termasuk ruang kelas berteknologi tinggi, laboratorium
+            komputer, perpustakaan lengkap, dan area penelitian. Kampus ini juga
+            memiliki pusat olahraga, ruang diskusi, serta area rekreasi untuk
+            mendukung kesejahteraan mahasiswa. Fasilitas tersebut dirancang
+            untuk menciptakan lingkungan belajar yang nyaman dan inspiratif
+          </p>
+          <button
+            class="border border-tertiary px-4 py-2 text-tertiary hover:bg-tertiary hover:text-secondary transition duration-300"
+          >
+            <a href="fasilitas.html">Read More</a>
+          </button>
+        </div>
+      </article>
+      <!-- FASILITAS END -->
+
+      <div id="pendaftaran" class="m-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- FORM PENDAFTARAN KULIAH START -->
+        <form
+          action="submit"
+          class="md:col-span-2 bg-white shadow-md rounded-xl p-6"
+        >
+          <h2 class="text-2xl font-bold mb-6 text-center">
+            Form Pendaftaran Kuliah
+          </h2>
+
+          <div class="mb-4">
+            <label for="full-name" class="block">Nama Lengkap:</label>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+
+          <div class="mb-4">
+            <label for="email" class="block">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+
+          <div class="mb-4">
+            <label for="phone" class="block">Nomor Telepon:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+
+          <div class="mb-4">
+            <label for="dob" class="block">Tanggal Lahir:</label>
+            <input
+              type="date"
+              id="dob"
+              name="dob"
+              class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+
+          <div class="mb-4">
+            <label for="program" class="block"
+              >Program Studi yang Dipilih:</label
+            >
+            <select
+              id="program"
+              name="program"
+              class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            >
+              <option value="">Pilih Program Studi</option>
+              <option value="ilmu-komputer">Ilmu Komputer</option>
+              <option value="teknik-informatika">Teknik Informatika</option>
+              <option value="sistem-informasi">Sistem Informasi</option>
+              <option value="manajemen">Manajemen</option>
+              <option value="akuntansi">Akuntansi</option>
+            </select>
+          </div>
+
+          <div class="mb-4">
+            <label for="address" class="block">Alamat:</label>
+            <textarea
+              id="address"
+              name="address"
+              rows="4"
+              class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            ></textarea>
+          </div>
+
+          <div class="mb-4">
+            <label for="password" class="block">Kata Sandi:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+
+          <div class="mb-6">
+            <label for="confirm-password" class="block"
+              >Konfirmasi Kata Sandi:</label
+            >
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+
+          <div class="text-center">
+            <input
+              type="submit"
+              value="Daftar"
+              class="bg-primary hover:bg-tertiary hover:text-gray-200 text-gray-100 font-bold py-2 px-6 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer transition-colors duration-300"
+            />
+          </div>
+        </form>
+        <!-- FORM PENDAFTARAN KULIAH END -->
+
+        <!-- SIDEBAR START -->
+        <aside class="bg-white p-6 shadow-xl rounded-xl">
+          <article class="">
+            <header class="flex flex-col justify-between items-center">
+              <h2 class="text-2xl font-bold mb-4">Kampus Undiknas</h2>
+              <img
+                src="image/logo-undiknas.png"
+                alt="undiknas_logo"
+                class="w-64 h-auto my-4"
+              />
+            </header>
+
+            <section>
+              <h3 class="font-semibold mb-3">Informasi Lainnya</h3>
+              <table class="w-full text-left">
+                <tr>
+                  <th class="pr-4">Provinsi</th>
+                  <td>Bali</td>
+                </tr>
+                <tr>
+                  <th class="pr-4">Tanggal Didirikan</th>
+                  <td>17 Februari 1969</td>
+                </tr>
+                <tr>
+                  <th class="pr-4">Alamat</th>
+                  <td>Jl. Bedugul No.39 Sidakarya, Denpasar - Bali</td>
+                </tr>
+                <tr>
+                  <th class="pr-4">Luas Kampus</th>
+                  <td>13619,9 m<sup>2</sup></td>
+                </tr>
+                <tr>
+                  <th class="pr-4">Kontak Telepon</th>
+                  <td>+62 821 4606 1219</td>
+                </tr>
+              </table>
+            </section>
+          </article>
+        </aside>
+        <!-- SIDEBAR END -->
+      </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white px-10">
+      <div class="flex flex-row justify-between py-4 gap-10">
+        <div class="max-w-sm text-left flex flex-col gap-2">
+          <h1 class="text-xl font-bold">Undiknas</h1>
+          <p class="text-sm max-w-[224px] text-[#cccccc]">
+            Kampus Swasta Terbaik di Bali, Menginspirasi Inovasi dan Kreativitas
+            Tanpa Batas
+          </p>
+        </div>
+        <div class="max-w-sm text-left flex flex-col gap-2">
+          <h1 class="text-xl font-bold">Link</h1>
+          <ul class="text-sm text-[#cccccc]">
+            <li class="hover:text-secondary transition duration-300">
+              <a href="sejarah.html">Sejarah</a>
+            </li>
+            <li class="hover:text-secondary transition duration-300">
+              <a href="program.html">Program</a>
+            </li>
+            <li class="hover:text-secondary transition duration-300">
+              <a href="fasilitas.html">Fasilitas</a>
+            </li>
+            <li class="hover:text-secondary transition duration-300">
+              <a href="#pendafaran">Pendaftaran</a>
+            </li>
+          </ul>
+        </div>
+        <div class="max-w-sm text-left flex flex-col gap-2">
+          <h1 class="text-xl font-bold">Layanan</h1>
+          <ul class="text-sm text-[#cccccc]">
+            <li class="hover:text-secondary transition duration-300">
+              <a href="https://undiknas.ac.id/feb/">Sarjana</a>
+            </li>
+            <li class="hover:text-secondary transition duration-300">
+              <a
+                href="https://pasca-undiknas.ac.id/about.php?data=detailmm&_gl=1*bs6v92*_ga*ODUyNjYxNDc5LjE3MjY5MDYwMTM.*_ga_310VY27086*MTcyODIyMTgzNi43LjEuMTcyODIyMTk1OS4wLjAuMA..x"
+                >Pascasarjana</a
+              >
+            </li>
+            <li class="hover:text-secondary transition duration-300">
+              <a href="https://undiknas.ac.id/program-profesi-insinyur/"></a
+              >Program Profi
+            </li>
+            <li class="hover:text-secondary transition duration-300">
+              <a
+                href="https://io.undiknas.ac.id/?_gl=1%2Alnmz8v%2A_ga%2AODUyNjYxNDc5LjE3MjY5MDYwMTM.%2A_ga_310VY27086%2AMTcyODIyMTgzNi43LjEuMTcyODIyMjAwMy4wLjAuMA.."
+                >International Corner</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="max-w-sm text-left flex flex-col gap-2">
+          <h1 class="text-xl font-bold">Social Media</h1>
+          <ul class="text-sm text-[#cccccc]">
+            <li class="hover:text-secondary transition duration-300">
+              <a
+                href="https://www.instagram.com/undiknas/profilecard/?igsh=MTZybDhpczJ4dTY0ZA=="
+                >Instagram</a
+              >
+            </li>
+            <li class="hover:text-secondary transition duration-300">
+              <a
+                href="https://www.facebook.com/share/kz1huDKT3J28ShZG/?mibextid=kFxxJD"
+                >Facebook</a
+              >
+            </li>
+            <li class="hover:text-secondary transition duration-300">
+              <a href="https://twitter.com/undiknas">Twitter</a>
+            </li>
+            <li class="hover:text-secondary transition duration-300">
+              <a
+                href="https://youtube.com/@undiknasuniversity?si=TKWhViAhh6ka2zmA"
+                >Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="border-t border-gray-700 flex justify-center items-center py-4"
+      >
+        <p class="text-sm text-gray-400">
+          &copy; 2024 Undiknas University. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
